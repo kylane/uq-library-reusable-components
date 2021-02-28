@@ -4,6 +4,7 @@
 - UQ Footer (28 Feb 2021) - [ITS DS](https://design-system.uq.edu.au/?path=/docs/components-footer--footer)
 
 ### Development
+- run `npm ci` to install packages.
 - run `npm run start` to run the project locally while developing with a listener
   - While this is running, you can run `cypress open` to manually run cypress tests
 - run `npm run build` to run a test build in the `dist` folder
