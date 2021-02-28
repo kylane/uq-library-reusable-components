@@ -5,7 +5,9 @@
 
 ### Development
 - run `npm run start` to run the project locally while developing with a listener
+  - While this is running, you can run `cypress open` to manually run cypress tests
 - run `npm run build` to run a test build in the `dist` folder
+- run `npm run test` to run a test build in the `dist` folder and run all cypress tests
 
 ### Use
 
