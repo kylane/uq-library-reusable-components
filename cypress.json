@@ -1,1 +1,19 @@
-{}
+{
+  "baseUrl": "http://localhost:8080",
+  "waitForAnimations": true,
+  "pageLoadTimeout": 30000,
+  "video": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "videoUploadOnPasses": false,
+  "projectId": "d2f4io",
+  "blockHosts": ["www.googletagmanager.com"],
+  "firefoxGcInterval": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "numTestsKeptInMemory": 1,
+  "env": {
+    "RETRIES": 3
+  }
+}

@@ -9,10 +9,11 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open",
+    "clean": "rm -rf node_modules dist cypress/screenshots cypress/video",
     "start-test-server": "webpack-dev-server",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test start-test-server http://localhost:8080 cypress:run"
+    "test": "start-server-and-test start-test-server http://localhost:8080 cypress:run"
   },
   "repository": {
     "type": "git",

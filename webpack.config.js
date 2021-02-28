@@ -68,6 +68,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "src/UQHeader/js/uqds.js", to: "uq-header.js" },
+        { from: "src/UQFooter/js/uqds.js", to: "uq-footer.js" },
       ],
     }),
   ],
