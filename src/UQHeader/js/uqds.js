@@ -38,7 +38,6 @@ var uq = function (exports) {
     }, {
       key: "handleToggle",
       value: function handleToggle() {
-        console.log('toggling');
         this.toggle.classList.toggle('search-toggle__button--icon-close');
         this.search.classList.toggle('nav-search--open');
 
