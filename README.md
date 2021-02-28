@@ -1,15 +1,27 @@
 # UQ Library Reusable Web Components
 
-## Install & Use
+## Current contents
+- UQ Header (28 Feb 2021) - [ITS DS](https://design-system.uq.edu.au/?path=/docs/components-header--header)
 
-Add the following line at the end of your HTML document to initialise the components. 
+## Development
+- run `npm run start` to run the project locally while developing with a listener
+- run `npm run build` to run a test build in the `dist` folder
+
+## Use
+
+Add the following line at the end of your HTML document to initialise the components.
+(NOTE: This is TBA in terms of final location etc)
 ```html
 <script type="text/javascript" src="https://library.uq.edu.au/resuable/uq-lib-resusable.min.js"></script>
 ```
 
 eg. UQ Header:
 ```html
-<uq-header></uq-header>
+<uq-header
+        hideLibraryMenuItem="true"
+        searchLabel="google.com.au"
+        searchURL="www.google.com"
+></uq-header>
 ```
 
 
@@ -31,4 +43,4 @@ eg. UQ Header:
     }),
 ```
 - Make sure to update the dynamic load reference in the web component file.
-- Run `npm run build` to pack the file into the `dist` folder - and open index.html there in a browser to test.
+- Run `npm run build` to pack the file into the `dist` folder - and open index.html there in a browser to test - or - run `npm run start` to have a listening system run in your local browser.
