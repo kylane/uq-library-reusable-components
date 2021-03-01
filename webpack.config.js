@@ -69,6 +69,7 @@ module.exports = {
       patterns: [
         { from: "src/UQHeader/js/uqds.js", to: "uq-header.js" },
         { from: "src/UQFooter/js/uqds.js", to: "uq-footer.js" },
+        { from: "src/UQSiteHeader/js/uqds.js", to: "uq-site-header.js" },
       ],
     }),
   ],
