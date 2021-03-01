@@ -99,7 +99,7 @@ class UQFooter extends HTMLElement {
                 initCalled = true;
             };
             //Specify the location of the ITS DS JS file
-            script.src = 'uq-footer.js';
+            script.src = 'https://homepage-staging.library.uq.edu.au/test-web-components/uq-footer.js';
 
             //Append it to the document header
             document.head.appendChild(script);
